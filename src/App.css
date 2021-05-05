@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+/* *********************** header rules **************************** */
+#header
+{
+    background-image: url("./gifspace.gif");
+    background-repeat: no-repeat;
+    width : 100%;
+    background-size: cover;
+    height : 60vh;
+}
+
+.aboutme
+{
+  border: 1rem solid;
+  width : 100%;
+}
+
