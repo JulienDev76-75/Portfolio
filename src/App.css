@@ -53,3 +53,31 @@
   width : 100%;
 }
 
+/* *********************** header rules **************************** */
+.titleBorder::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin: auto;
+  width: 30%;
+  height: 4px;
+  background: #F8533D;
+}
+
+/* .compItems li {
+    display: inline-block;
+    padding: 0 1em;
+    margin: 5px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    color: #fff;
+    background: #EE4437;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all .6s;
+} */
+
+

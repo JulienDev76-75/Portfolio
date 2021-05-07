@@ -16,10 +16,8 @@ function App() {
     <div>
       <Router>
       <Header />
-        <main className="container my-5">
       <Projets />
       <Competences />
-        </main>
       <Footer />
       </Router>
     </div>
