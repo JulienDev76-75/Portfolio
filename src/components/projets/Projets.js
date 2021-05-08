@@ -1,14 +1,19 @@
-function Projets() {
+import React from "react";
+import Data from "./data.json"
 
+function Projets (){
     return (
-        <div className="text-center text-dark bg-danger">
-            <section className="container">
-                <h2 className="text-primary">mes projets</h2>
-                <p className="lead">j'ai plein de projets</p>
-            </section>
+        <div className="project_list">
+            {Data.map(post => {
+            return (
+                <>
+                <h2>{post.id}</h2>
+                <p>{post.titre}</p>
+                <p>{post.contenu}</p>
+                </>);
+        })}
         </div>
-    );
+    )
+
 }
-
-
 export default Projets;

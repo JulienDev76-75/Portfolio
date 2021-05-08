@@ -40,17 +40,31 @@
 /* *********************** header rules **************************** */
 #header
 {
-    background-image: url("./gifspace.gif");
+    background-image: url("./gifastronomie.gif");
     background-repeat: no-repeat;
     width : 100%;
     background-size: cover;
-    height : 60vh;
+    height : 100vh;
+}
+
+#footer
+{
+  background-image: url("./gifastronomie.gif");
+  background-repeat: no-repeat;
+  width : 100%;
+  background-size: cover;
 }
 
 .aboutme
 {
   border: 1rem solid;
   width : 100%;
+}
+
+.card_1
+{
+  background-image: url("./original.gif");
+  background-repeat: no-repeat;
 }
 
 /* *********************** header rules **************************** */
