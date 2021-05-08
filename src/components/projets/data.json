@@ -1,24 +1,24 @@
 [
     {
-    "id" : "Je m'appelle Julien et je suis un futur dev de génie, non mais franchement, je vais te coder le futur gta mon pote",
+    "id" : 1,
     "titre" : "Ceci est mon pire projet",
     "contenu" : "une horreur"
     },
 
     {
-    "id" : "j'adore ce que je fais",
+    "id" : 2,
     "titre" : "Ceci est mon pire projet",
     "contenu" : "une horreur"
     },
 
     {
-    "id" : "j'adore ce que je fais",
+    "id" : 3,
     "titre" : "Ceci est mon pire projet",
     "contenu" : "une horreur"
     },
 
     {
-    "id" : "j'adore ce que je fais",
+    "id" : 4,
     "titre" : "Ceci est mon pire projet",
     "contenu" : "une horreur"
     }

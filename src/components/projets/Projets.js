@@ -1,5 +1,7 @@
 import React from "react";
-import Data from "./data.json"
+import Data from './data.json';
+
+
 
 function Projets (){
     return (
@@ -17,3 +19,4 @@ function Projets (){
 
 }
 export default Projets;
+
