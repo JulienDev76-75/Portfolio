@@ -23,7 +23,7 @@ function Header() {
             <div className="container pt-5">
                 <div className="aboutme pt-4 mt-4 pb-4 mb-4">
                 <h2 className="text-white">Je suis ...</h2>
-                <h1 className="text-center">Julien Coart</h1>
+                <h1 className="julien_coart text-center">Julien Coart</h1>
                 <h2 className="lead text-white p-2">Développeur Web Front-end et Back-end présent partout dans le monde</h2>
                 <p className="lead text-white">Je m'appelle Julien, j'ai 33 ans, je suis en pleine reconversion dans le fabuleux métier du développement web,
                 <br/>Je souhaite de tout coeur avoir ma certif', je suis sûrement le seul à être content de faire partie de l'AFPA de Rouen.

@@ -289,6 +289,38 @@ font-size : 0.9em;
   height : 100vh;
 }
 
+.julien_coart
+{
+  position : relative;
+  font-size: 3em;
+  z-index : 1;
+  overflow : hidden;
+}
+
+/* .julien_coart::before
+{
+  content : '';
+  position : absolute;
+  width : 120%;
+  height : 100%;
+  left : 0;
+  background :  linear-gradient(90deg, transparent 0%, white 5%,transparent 100%);
+  animation : animate 5.5s linear infinite;
+}
+
+@keyframes animate 
+{
+  0%
+  {
+    left : 120%;
+  }
+
+  100%
+  {
+    left : -20%; 
+  }
+} */
+
 
 #projet
 {
