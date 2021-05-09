@@ -19,7 +19,9 @@ import { faSmile} from '@fortawesome/free-solid-svg-icons'
 function Competences() {
     return (
     <section id="section" className="bg-primary">
-     <h2 className="text-center text-white pb-2 pt-4 pt-5">Mes compétences</h2>
+     <div className="row text-center">
+     <h2 className="text-center text-white pb-2 pt-4 pt-5">Mes compétences</h2><hr className="hr w-100"></hr>
+     </div>
         <div className="row row-cols-1 row-cols-md-2 g-4 ms-2 me-2 mt-2">
             <div className="cardopacity_1 col mb-3 pb-3 mt-5">
                 <div className="card">

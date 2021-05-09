@@ -32,8 +32,8 @@ function Header() {
                 <br/>Je recherche un stage dans la région de Normandie ou de Paris, ce stage sera non rémunéré et il sera à partir du 16 août.</p>
             </div>
             </div>
-            <button type="button" className="btn btn-light mt-5" data-bs-toggle="button" autocomplete="off">
-            <a href="./CVJuliendeveloppeur_compressed.pdf" download> Mon CV</a></button>
+            <button type="button" className="btn text-dark mt-5" data-bs-toggle="button" autocomplete="off">
+            <a className="btn btn-light" target="_blank" href="./CVJuliendeveloppeur_compressed.pdf" download>Cliquez ici pour obtenir mon CV</a></button>
         </header>
     </div>
     );

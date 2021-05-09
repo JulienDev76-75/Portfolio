@@ -1,11 +1,9 @@
 function Footer(){
     return(
     <footer id="footer" className="text-center text-white text-lg-start">
+        <h2 className="text-center pb-2 pt-5">Pour me contacter<hr className="hr w-100"></hr></h2>
         <div className="container p-4 pt-5">
             <div className="row">
-
-                <h2 className="text-center pb-5">Pour me contacter</h2>
-
                 <div className="col-lg-6 col-md-12 mb-4 mb-md-0 pb-4">
                     <h5 className="text-uppercase">Pour finir :</h5>
                     <p>Dans le cadre de ma formation à l'Afpa de Rouen, je suis à la recherche<br/>
@@ -35,12 +33,10 @@ function Footer(){
                     </li>
                 </ul>
             </div>
-            </div>
+            </div>           
         </div>
-
-        <div className="text-center pt-5">© 2021 Copyright: Julien Coart. 
+        <div className="copyright text-center">© 2021 Copyright: Julien Coart. 
         </div>
-
     </footer>
     );
 }
