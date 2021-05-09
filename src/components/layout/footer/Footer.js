@@ -1,3 +1,5 @@
+//<img src={process.env.PUBLIC_URL + "/GitHub-Mark.png"} alt="lien_GitHub"/> is the way to LOAD images from public file (not src file) on the site
+//mail-to is html method to send a mail box to user in the goal to contact you
 function Footer(){
     return(
     <footer id="footer" className="text-center text-white text-lg-start">

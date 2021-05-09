@@ -1,11 +1,10 @@
-
 function Header() {
 
     return (
     <div>
         <header id="header" className="text-center text-white">
             <div id="nav">
-                <ul className="nav justify-content-end">
+                <ul className="nav justify-content-center">
                     <li className="nav-item">
                         <a className="nav-link active text-white" aria-current="page" href="#header">A propos</a>
                     </li>

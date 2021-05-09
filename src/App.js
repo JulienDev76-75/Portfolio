@@ -8,7 +8,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
-
+//Single page, don't need Switch or any Links
 function App() {
   return (
     <div>

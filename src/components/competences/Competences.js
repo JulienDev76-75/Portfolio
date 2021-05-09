@@ -1,3 +1,5 @@
+//Import icons from web site font-awesome, the  trick is to take for example a fa-rocket and turn it into faRocket
+//All icons are not supported, the list is limited
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCogs } from '@fortawesome/free-solid-svg-icons'
 import { faPaintBrush } from '@fortawesome/free-solid-svg-icons'
@@ -16,6 +18,8 @@ import { faUserFriends} from '@fortawesome/free-solid-svg-icons'
 import { faQuestion} from '@fortawesome/free-solid-svg-icons'
 import { faSmile} from '@fortawesome/free-solid-svg-icons'
 
+//To put icons into, just use then <FontAwesomeIcon icon={fa(*iconsname*)} />
+//&nbsp; code to put a space in HTML
 function Competences() {
     return (
     <section id="section" className="bg-primary">
