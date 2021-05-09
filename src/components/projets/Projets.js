@@ -12,18 +12,29 @@ function Projets (){
                 <div className="card bg-secondary text-white">
                   <div className="card-body">
                     <h3 className="card-title">{post.titre}</h3>
-                    <p className="card-text">{post.contenu}</p>
+                    <p className="card-text">{post.contenu}</p>             
                   </div>
                 </div>
               </div>
           </div>
           );
+          <p><Image/></p>
       })}
       </div>
   )
 
 }
 export default Projets;
+
+function Image () {
+  return (
+    <div>
+      <p>Je suis la fonction image</p>
+    </div>
+  )
+}
+
+
 
 
 
