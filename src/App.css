@@ -37,7 +37,15 @@
   }
 }
 
-/* *********************** header rules **************************** */
+/* *********************** >320px Rules **************************** */
+
+/* @media screen and (max-width: 320px) */
+
+
+/* *********************** >768px Rules **************************** */
+@media screen and (min-width: 768px)
+{
+
 #header
 {
     background-image: url("./gifastronomie.gif");
@@ -47,51 +55,94 @@
     height : 100vh;
 }
 
-#footer
-{
-  background-image: url("./gifastronomie.gif");
-  background-repeat: no-repeat;
-  width : 100%;
-  background-size: cover;
-}
-
 .aboutme
 {
   border: 1rem solid;
   width : 100%;
 }
 
-.card_1
+#projet
 {
-  background-image: url("./original.gif");
+  background-image: url("./fondprojets.jpg");
   background-repeat: no-repeat;
+  width : 100%;
+  background-size: cover;
+  height : 110vh;
 }
 
-/* *********************** header rules **************************** */
-.titleBorder::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100%;
-  margin: auto;
-  width: 30%;
-  height: 4px;
-  background: #F8533D;
+#nav
+{
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  opacity : 0.7;
 }
 
-/* .compItems li {
-    display: inline-block;
-    padding: 0 1em;
-    margin: 5px;
-    height: 36px;
-    line-height: 36px;
-    border-radius: 18px;
-    color: #fff;
-    background: #EE4437;
-    opacity: 0;
-    transform: translateY(100px);
-    transition: all .6s;
-} */
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+#section {
+  background-image: url("./fondcomp.jpg");
+  background-repeat: no-repeat;
+  width : 100%;
+  background-size: cover;
+  height : 110vh;
+}
+
+.cardopacity_1, .cardopacity_2
+{
+  opacity : 0.7;
+}
+
+.card
+{
+  height : 100%;
+}
+
+#footer
+{
+  background-image: url("./gifastronomie.gif");
+  background-repeat: no-repeat;
+  width : 100%;
+  background-size: cover;
+  height : 90vh;
+}
+
+#footer p
+{
+  font-size: 1.2em;
+}
+
+#footer h5
+{
+  font-size : 1.5em;
+}
+
+}
+
+
+
+
+
 
 
