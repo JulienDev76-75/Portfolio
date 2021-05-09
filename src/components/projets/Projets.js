@@ -18,7 +18,6 @@ function Projets (){
               </div>
           </div>
           );
-          <p><Image/></p>
       })}
       </div>
   )
@@ -26,13 +25,7 @@ function Projets (){
 }
 export default Projets;
 
-function Image () {
-  return (
-    <div>
-      <p>Je suis la fonction image</p>
-    </div>
-  )
-}
+
 
 
 

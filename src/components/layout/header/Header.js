@@ -23,8 +23,9 @@ function Header() {
 
             <div className="container pt-5">
                 <div className="aboutme pt-4 mt-4 pb-4 mb-4">
-                <h1 className="text-white">Je suis<br/>Julien Coart</h1>
-                <p className="lead text-white p-2">Développeur Web Front-end et Back-end présent partout dans le monde</p>
+                <h2 className="text-white">Je suis ...</h2>
+                <h1 className="text-center">Julien Coart</h1>
+                <h2 className="lead text-white p-2">Développeur Web Front-end et Back-end présent partout dans le monde</h2>
                 <p className="lead text-white">Je m'appelle Julien, j'ai 33 ans, je suis en pleine reconversion dans le fabuleux métier du développement web,
                 <br/>Je souhaite de tout coeur avoir ma certif', je suis sûrement le seul à être content de faire partie de l'AFPA de Rouen.
                 <br/>Je ne promets pas d'être le meilleur développeur du monde, mais je pense que je peux quand même apporter.
@@ -32,7 +33,7 @@ function Header() {
                 <br/>Je recherche un stage dans la région de Normandie ou de Paris, ce stage sera non rémunéré et il sera à partir du 16 août.</p>
             </div>
             </div>
-            <button type="button" className="btn text-dark mt-5" data-bs-toggle="button" autocomplete="off">
+            <button type="button" className="btn text-dark mt-2 mb-4" data-bs-toggle="button" autocomplete="off">
             <a className="btn btn-light" target="_blank" href="./CVJuliendeveloppeur_compressed.pdf" download>Cliquez ici pour obtenir mon CV</a></button>
         </header>
     </div>
