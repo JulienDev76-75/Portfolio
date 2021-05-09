@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ac55b062.chunk.css",
+    "main.js": "/portfolio/static/js/main.5db5a73d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5db5a73d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.7212c903.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7212c903.js.map",
+    "static/js/2.37b6aa2b.chunk.js": "/portfolio/static/js/2.37b6aa2b.chunk.js",
+    "static/js/2.37b6aa2b.chunk.js.map": "/portfolio/static/js/2.37b6aa2b.chunk.js.map",
+    "static/js/3.31a1f496.chunk.js": "/portfolio/static/js/3.31a1f496.chunk.js",
+    "static/js/3.31a1f496.chunk.js.map": "/portfolio/static/js/3.31a1f496.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.ac55b062.chunk.css.map": "/portfolio/static/css/main.ac55b062.chunk.css.map",
+    "static/js/2.37b6aa2b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.37b6aa2b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/gifastronomie.e69fd266.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7212c903.js",
+    "static/js/2.37b6aa2b.chunk.js",
+    "static/css/main.ac55b062.chunk.css",
+    "static/js/main.5db5a73d.chunk.js"
+  ]
+}
