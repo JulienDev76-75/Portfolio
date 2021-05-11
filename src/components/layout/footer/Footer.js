@@ -20,7 +20,7 @@ function Footer(){
                 <ul className="list-unstyled mb-5">
                     <li>
                         <a href="https://www.linkedin.com/in/julien-coart-86142a147/" target="_blank" rel=" noreferrer noopener">
-                        <img src={process.env.PUBLIC_URL + "/linkedin.png"} alt="lien_linkedin"/>
+                        <img className="logofooter" src={process.env.PUBLIC_URL + "/linkedinlogo.png"} alt="lien_linkedin"/>
                         </a> 
                     </li>
                 </ul>
@@ -30,7 +30,7 @@ function Footer(){
                 <ul className="list-unstyled mb-5">
                     <li>
                         <a href="https://github.com/JulienDev76-75" target="_blank" rel=" noreferrer noopener">
-                        <img src={process.env.PUBLIC_URL + "/GitHub-Mark.png"} alt="lien_GitHub"/>
+                        <img className="logofooter" src={process.env.PUBLIC_URL + "/github.png"} alt="lien_GitHub"/>
                         </a> 
                     </li>
                 </ul>

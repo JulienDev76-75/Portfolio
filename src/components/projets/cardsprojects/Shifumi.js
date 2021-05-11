@@ -4,8 +4,7 @@ import Data from './shifumi.json';
 
 function Shifoumi () {
     return (
-        <div className="col-12 col-sm-12 col-md-4 col-lg-4 py-3 bg-transparent">
-            {/* the .map function allows me to browse my JSON array */}
+        <div className="scale-in-ver-center col-12 col-sm-12 col-md-6 col-lg-4 py-3 bg-transparent">
             {Data.map((post) => {
                 return (
                     <div>
@@ -15,10 +14,9 @@ function Shifoumi () {
                                     <img src={img} className="card-img-top" alt="shifumi"/>
                                 </div>
                                 <div className="card-body d-flex flex-column">
-                                    <h5 className="card-title text-dark text-center text-decoration-underline">{post.titre}</h5>
-                                    <p>{post.contenu}</p>
-                                    <button type="button" class="btn btn-dark"><a href={post.link} target="_blank" rel=" noreferrer noopener">
-                                        Voir le projet</a>
+                                    <h5 className="card-title text-white text-center text-decoration-underline">{post.titre}</h5>
+                                    <p className="text-white">{post.contenu}</p>
+                                    <button type="button" class="btn btn-dark"><a href={post.link} target="_blank" rel="noreferrer noopener">Voir le projet</a>
                                     </button>
                                 </div>
                             </div>

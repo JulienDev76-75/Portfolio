@@ -65,7 +65,8 @@ function Competences() {
                 </div>
             </div>
         </div>
-        <p className="text-center text-white pt-5 mt-3">fdfddfdfv</p>
+        <p id="text-comp" className="text-focus-in text-center text-white pt-5">"Rappelez-vous de regarder les étoiles et non pas vos pieds."</p>
+        <p id="text-comp1" className="text-focus-in text-center text-white pb-5">Stephen Hawking</p>
 
     </section>
     );
