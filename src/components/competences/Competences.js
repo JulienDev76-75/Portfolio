@@ -65,6 +65,7 @@ function Competences() {
                 </div>
             </div>
         </div>
+        <p className="text-center text-white pt-5 mt-3">fdfddfdfv</p>
 
     </section>
     );
