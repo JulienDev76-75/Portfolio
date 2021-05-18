@@ -107,6 +107,11 @@
   display : none;
 }
 
+#text-comp1
+{
+  display : none;
+}
+
 #nav
 {
   overflow: hidden;
