@@ -4,6 +4,6 @@
         "img" :"./terredegeek.jpg",
         "link" : "https://juliendev76-75.github.io/Site-Terre-De-Geek/",
         "titre" : "Site TerreDeGeek",
-        "contenu" : "Je vous présente mon site TerreDeGeek.com (site toujours en construction). Le but est d'utiliser de concert HTML et CSS (sans utiliser bootstrap). Le but est de comprendre les intrications entre HTML et CSS, ainsi que de comprendre le fonctionnement de CSS via la flexbox. Le site simule un magasin d'informatique."
+        "contenu" : "Je vous présente mon site TerreDeGeek.com (site toujours en construction). Le but est d'utiliser de concert HTML et CSS (sans utiliser bootstrap). Le but est de comprendre les intrications entre HTML et CSS, ainsi que de comprendre le fonctionnement de CSS via la flexbox."
     }
 ]

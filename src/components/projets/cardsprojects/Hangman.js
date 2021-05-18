@@ -5,7 +5,7 @@ import Data from './hangman.json';
 
 function Hangman () {
     return (
-        <div className="scale-in-ver-center col-12 col-sm-12 col-md-6 col-lg-4 py-3 bg-transparent">
+        <div className="scale-in-ver-center col-12 col-sm-12 col-md-12 col-lg-4 py-3 bg-transparent">
             {Data.map((post) => {
                 return (
                     <div>
@@ -17,7 +17,7 @@ function Hangman () {
                                 <div className="card-body d-flex flex-column">
                                     <h5 className="card-title text-white text-center text-decoration-underline">{post.titre}</h5>
                                     <p className="text-white" >{post.contenu}</p>
-                                    <button type="button" class="btn btn-dark"><a href={post.link} target="_blank" rel=" noreferrer noopener">
+                                    <button type="button" class="btn btn-dark"><a className="voirleprojet" href={post.link} target="_blank" rel=" noreferrer noopener">
                                         Voir le projet</a>
                                     </button>
                                 </div>

@@ -90,6 +90,12 @@
   height : auto;
 }
 
+.voirleprojet
+{
+  text-decoration:none;
+  color : white;
+}
+
 .imgcard 
 {
   width : 100%;
@@ -97,11 +103,6 @@
 }
 
 #text-comp
-{
-  display : none;
-}
-
-#text-comp1
 {
   display : none;
 }
@@ -130,6 +131,10 @@
 .nav-item
 {
 font-size : 0.9em;
+}
+
+.nav-item:hover {
+  background-color: grey;
 }
 
 .hr
@@ -175,12 +180,18 @@ font-size : 0.9em;
 
 #footer p
 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 #footer h5
 {
   font-size : 1.5em;
+}
+
+.mailto
+{
+  text-decoration: none;
+  color : white;
 }
 
 .copyright
@@ -191,8 +202,13 @@ font-size : 0.9em;
 }  
 
 /* *********************** >768px Rules **************************** */
-@media screen and (min-width: 767px)
+@media screen and (min-width: 768px)
 {
+
+*
+{
+  font-family: 'Poppins', sans-serif;
+}
 
 #header
 {
@@ -201,6 +217,12 @@ font-size : 0.9em;
   width : 100%;
   background-size: cover;
   height : auto;
+}
+
+.voirleprojet
+{
+  text-decoration:none;
+  color : white;
 }
 
 .container, .container p, .container h1, .container h2
@@ -237,7 +259,7 @@ font-size : 0.9em;
 
 #text-comp
 {
-  font-size : 2em;
+  font-size : 1.6em;
   font-style: italic;
 }
 
@@ -307,21 +329,25 @@ font-size : 0.9em;
 {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  opacity : 0.7;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  opacity : 0.8;
   z-index: 9;
-}
+}  
 
 /* Links inside the navbar */
-.nav a 
+.navbar a 
 {
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: grey;
 }
 
 .imgcard 
@@ -380,10 +406,12 @@ font-size : 0.9em;
   font-size : 1.5em;
 }
 
-.copyright
+.mailto
 {
- vertical-align: bottom;
+  text-decoration: none;
+  color : white;
 }
+
 }
 
 
@@ -409,7 +437,6 @@ font-size : 0.9em;
   border: 0.4em solid;
   width : 100%;
 }
-
 
 #projet
 {
@@ -471,6 +498,7 @@ font-size : 0.9em;
 .nav-item
 {
   font-size : 1em;
+  font-style: 'Poppins', sans-serif;
 }
 
 #section 
@@ -490,13 +518,17 @@ font-size : 0.9em;
 
 #footer
 {
-  height : 65vh;
+  height : 50vh;
 }
 
 .logofooter
 {
   width : 80px;
   height : 80px;
+}
+
+.btn_comp:hover {
+  background-color: red;
 }
 
 }

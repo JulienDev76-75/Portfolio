@@ -40,7 +40,7 @@ function Header() {
             </div>
 
             <button type="button" className="btn text-dark mt-2 mb-4" data-bs-toggle="button" autocomplete="off">
-            <a className="btn btn-light" target="_blank" href="./CVJuliendeveloppeur_compressed.pdf" download>Obtenir mon CV</a></button>
+            <a className="btn btn-light" target="_blank" href={process.env.PUBLIC_URL + "/CVJuliendeveloppeur_compressed.pdf"} download>Obtenir mon CV</a></button>
         </header>
     </div>
     );

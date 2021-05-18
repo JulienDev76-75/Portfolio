@@ -17,8 +17,8 @@ class Projets extends React.Component {
   render () {
       return (
           <div className="container-fluid d-flex flex-column py-4" id="projet">
-              <section id="mesprojets" className="container-fluid">
-                  <h2 className="text-center text-white py-4">Mes projets</h2><hr className="hr w-100"></hr>
+              <section id="mesprojets" className="container-fluid w-75 mx-auto">
+                  <h2 className="text-center text-white pb-1 pt-4 w-75 mx-auto">Mes Projets</h2><hr className="hr w-100"></hr>
                   <div className="row py-4">
                       <Shifumi />
                       <Hangman />
