@@ -1,9 +1,10 @@
 [
     {
     "id" : 1,
-    "img" :"",
+    "img" :"/projectimg/shifumi-logo.jpg",
+    "technologie" : "Javascript",
     "link" : "https://juliendev76-75.github.io/ShiFuMi/",
-    "titre" : "Shifumi",
+    "titre" : "Shifumi - Projet réalisé au bout de 2 semaines de formation",
     "contenu" : "Je vous présente mon Shifumi réalisé uniquement avec le langage Javascript (sans interface graphique). Le but étant de mettre en place les principes de conditions, de boucles ainsi que la syntaxe Javascript. Pour rappel le Shifumi est similaire au jeu Pierre-Feuille-Ciseau."
     }
 ]

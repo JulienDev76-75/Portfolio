@@ -3,7 +3,7 @@
         "id" : 2,
         "img" :"./hangman.jpg",
         "link" : "https://juliendev76-75.github.io/Hangman/",
-        "titre" : "Hangman",
+        "titre" : "Hangman - Projet réalisé au bout de 3 semaines de formation",
         "contenu" : "Je vous présente mon jeu du Pendu réalisé uniquement en langage Javascript (sans interface graphique). Le but est de parfaire les connaissances acquies avec Javascript, cela fut un excellent exercice afin de réfléchir à une logique et la mettre en place. bonne chance!" 
         }
 ]

@@ -83,11 +83,26 @@
 
 #projet
 {
-  background-image: url("./fondprojets.jpg");
+  background-image: url("./stars-1845140.jpg");
   background-repeat: no-repeat;
   width : 100%;
   background-size: cover;
   height : auto;
+}
+
+.card-img-top
+{
+  width : 100%;
+}
+
+.card 
+{
+  border: 0.5px solid white;
+}
+
+.btnprojet
+{
+  border: 0.5px solid white;
 }
 
 .voirleprojet
@@ -156,6 +171,11 @@ font-size : 0.9em;
   width : 100%;
   background-size: cover;
   height : auto;
+}
+
+.cardprojet
+{
+  width : 100%;
 }
 
 .cardopacity_1, .cardopacity_2
@@ -249,11 +269,16 @@ font-size : 0.9em;
 
 #projet
 {
-  background-image: url("./fondprojets.jpg");
+  background-image: url("./stars-1845140.jpg");
   background-repeat: no-repeat;
   width : 100%;
   background-size: cover;
   height : auto;
+}
+
+.card-img-top
+{
+  width : 70%;
 }
 
 .imgcard 
@@ -386,6 +411,11 @@ font-size : 0.9em;
   height : 100%;
 }
 
+.cardprojet
+{
+  width : 75%;
+}
+
 #footer
 {
   background-image: url("./gifastronomie.gif");
@@ -453,37 +483,6 @@ font-size : 0.9em;
   width : 100%;
 }
 
-.scale-in-ver-center {
-	-webkit-animation: scale-in-ver-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-ver-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
- @-webkit-keyframes scale-in-ver-center {
-  0% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    opacity: 1;
-  }
-}
-@keyframes scale-in-ver-center {
-  0% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    opacity: 1;
-  }
-}
-
-
 #text-comp
 {
   font-size : 3em;
@@ -521,19 +520,40 @@ font-size : 0.9em;
   height : 100%;
 }
 
+.card-img-top
+{
+  width : 80%;
+}
+
+.cardprojet
+{
+  width : 75%;
+}
+
+.card 
+{
+  border: 0.5px solid white;
+}
+
+.btnprojet:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
 #footer
 {
-  height : 50vh;
+  height : 65vh;
 }
 
 .logofooter
 {
-  width : 80px;
-  height : 80px;
+  width : 70px;
+  height : 70px;
 }
 
-.btn_comp:hover {
-  background-color: red;
+.copyright
+{
+  font-size: 1.1em;
 }
 
 }

@@ -28,7 +28,7 @@ function Competences() {
      </div>
         <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 ms-2 me-2 mt-2">
             <div className="cardopacity_1 col mb-3 pb-3 mt-5">
-                <div className="card w-75 mx-auto">
+                <div className="cardprojet card mx-auto">
                 <div className="card-body text-center">
                     <h4 className="card-title"><FontAwesomeIcon icon={faCogs} />&nbsp;&nbsp;Mes compétences techniques</h4>
                     <h3 className="pt-3"><span className="badge bg-secondary">HTML</span>&nbsp;&nbsp;<span className="badge bg-secondary">CSS</span>&nbsp;&nbsp;<span className="badge bg-secondary">JAVASCRIPT</span></h3>
@@ -43,7 +43,7 @@ function Competences() {
                 </div>
             </div>
             <div className="cardopacity_2 col mb-3 pb-3 mt-5">
-                 <div className="card w-75 mx-auto">
+                 <div className="cardprojet card mx-auto">
                  <div className="card-body text-center">
                     <h4 className="card-title pb-2"><FontAwesomeIcon icon={faPencilRuler} />&nbsp;&nbsp;Mes hobbies</h4>
                     <ul>
@@ -65,8 +65,8 @@ function Competences() {
                 </div>
             </div>
         </div>
-        <p id="text-comp" className="text-focus-in text-center text-white pt-5">"Rappelez-vous de regarder les étoiles et non pas vos pieds."</p>
-        <p id="text-comp1" className="text-focus-in text-center text-white pb-5">Stephen Hawking</p>
+        <p id="text-comp" className="text-blur-out text-center text-white pt-5">"Rappelez-vous de regarder les étoiles et non pas vos pieds."</p>
+        <p id="text-comp1" className="text-blur-out text-center text-white pb-5">Stephen Hawking</p>
 
     </section>
     );
