@@ -1,8 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRocket } from '@fortawesome/free-solid-svg-icons'
-import { faProjectDiagram } from '@fortawesome/free-solid-svg-icons'
-import { faCogs } from '@fortawesome/free-solid-svg-icons'
-import { faIdCard } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRocket } from '@fortawesome/free-solid-svg-icons';
+import { faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
+import { faCogs } from '@fortawesome/free-solid-svg-icons';
+import { faIdCard } from '@fortawesome/free-solid-svg-icons';
+// import Typed from 'react-typed';
 
 function Header() {
 
@@ -28,14 +29,17 @@ function Header() {
 
             <div className="container pt-5">
                 <div className="aboutme pt-5 mt-5 pb-3 mb-3">
-                    <h2 className="text-white">Je suis ...</h2>
-                    <h1 className="julien_coart text-blur-out text-center">Julien Coart</h1>
-                    <h2 className="lead text-white p-2">Développeur Web Front-end et Back-end présent partout dans le monde</h2>
-                    <p className="lead text-white p-4">Je m'appelle Julien, j'ai 33 ans, je suis en pleine reconversion dans le fabuleux métier du développement web,
-                    <br/>Je souhaite de tout coeur avoir ma certif', je suis sûrement le seul à être content de faire partie de l'AFPA de Rouen.
-                    <br/>Je ne promets pas d'être le meilleur développeur du monde, mais je pense que je peux quand même apporter.
-                    <br/>Je suis passionné d'astronomie, de jeu d'échec, et je promets de ne pas avoir trop la tête dans la lune, d'être terre-à-terre.
-                    <br/>Je recherche un stage dans la région de Normandie ou de Paris, ce stage sera non rémunéré et il sera à partir du 16 août.</p>
+                    <h1 className="julien_coart text-center">Julien Coart</h1>
+                    {/* <Typed
+                    className="typed-text"
+                    strings={["Développeur Front-end", "Développeur Back-End", "開発者", "French Developper"]}>
+                    </Typed> */}
+                    <h2 className=" text-white p-2">Développeur Web Front-end et Back-end</h2>
+                    <p className="lead text-white p-4">Je m'appelle Julien, j'ai 33 ans, je suis en pleine reconversion dans le fabuleux métier du développement web.
+                    <br/>Après mes études en Histoire et Sciences Politique, l'opportunité d'être chef d'entreprise en tenant mon propre restaurant s'est offerte à moi,
+                    <br/>après cette aventure forte enrichissante, j'ai testé divers jobs où je ne me reconnaissais pas. Après un travail en auto-didacte,
+                    <br/>je me suis préparé afin de suivre activement une formation dans le développement Web ! Passionné depuis toujours pour le monde digital que cela soit les réseaux sociaux, les jeux vidéo sont le moteur de ma reconversion. J'espère pouvoir à terme plus tard me lancer dans la création d'un jeu vidéo !
+                    <br/>Passionné d'astronomie également, avoir la tête dans les étoiles ne m'empêche pas d'être terre à terre ! Motivé, déterminé et avec l'envie de s'épanouir enfin dans un travail que j'aime, je suis disponible pour toute demande de renseignements ! Je suis à la recherche d'un stage non rémunéré de 9 semaines à partir du 16 août, n'hésitez pas à venir me contacter !</p>  
                 </div>
             </div>
 

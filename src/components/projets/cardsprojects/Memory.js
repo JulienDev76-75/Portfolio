@@ -17,13 +17,12 @@ function Memory () {
                                 <div className="card-body d-flex flex-column">
                                     <h5 className="card-title text-white text-center text-decoration-underline">{post.titre}</h5>
                                     <p className="text-white">{post.contenu}</p>
-                                    <button type="button" className="btnprojet btn btn-dark text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        Voir le projet
-                                    </button>
+                                    <button type="button" class="btn btn-dark"><a className="voirleprojet" href={post.link} target="_blank" rel=" noreferrer noopener">
+                                        Voir le projet</a></button>
                                 </div>
                             </div>
                         </div>  
-                        <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        {/* <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog">
                                 <div className="modal-content">
                                     <div className="modal-header">
@@ -39,7 +38,7 @@ function Memory () {
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>  */}
                     </div>
                 );
             })}

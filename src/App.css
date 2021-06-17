@@ -496,7 +496,10 @@ font-size : 0.9em;
 
 #nav
 {
-  opacity : 0.9;
+  opacity : 0.8;
+  padding-left : 35%;
+  padding-top : 1%;
+  height : 7vh;
 }
 
 .nav-item
